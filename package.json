@@ -1,0 +1,39 @@
+{
+  "name": "app-de-notas",
+  "version": "1.0.0",
+  "description": "Aplicación para crear, modificar y borrar notas simples a través de sesiones de usuario.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "@handlebars/allow-prototype-access": "^1.0.3",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.0",
+    "handlebars": "^4.7.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.9.4",
+    "now": "^17.1.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoMMF/app-007-notas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DiegoMMF/app-007-notas/issues"
+  },
+  "homepage": "https://github.com/DiegoMMF/app-007-notas#readme"
+}
